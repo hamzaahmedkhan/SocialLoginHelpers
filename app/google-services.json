@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "86601817601",
+    "project_id": "modified-cairn-134407"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:86601817601:android:0bea63c38b42886a",
+        "android_client_info": {
+          "package_name": "social.login.sample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "86601817601-vfrplkho6khl8gt6pp492gkd11loe2kp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "social.login.sample",
+            "certificate_hash": "450C9D973E1AD31AA9DC3CBD78EFCBD022C5D81F"
+          }
+        },
+        {
+          "client_id": "86601817601-ainrmes6hod4qfuf7drpcjm5s18ug3ii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqoqXU7VwBLUqW-vX4Q7y5H0JRh_qE9-U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,5 @@
+<resources>
+    <string name="bt_google">Google+</string>
+    <string name="bt_google_logout">Google+ logout</string>
+    <string name="app_name">Social Login</string>
+</resources>

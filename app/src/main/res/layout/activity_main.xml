@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="login.social.sample.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/g_login_btn"
+            style="@style/GoogleAuthSignInButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:text="GOOGLE SIGNIN" />
+
+        <Button
+            android:id="@+id/g_logout_btn"
+            style="@style/GoogleAuthSignInButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:text="GOOGLE LOGOUT" />
+
+        <Button
+            android:id="@+id/g_plus_login_btn"
+            style="@style/GoogleSignInButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:clickable="false"
+            android:text="@string/bt_google" />
+
+        <Button
+            android:id="@+id/g_plus_logout_btn"
+            style="@style/GoogleSignInButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:clickable="false"
+            android:text="@string/bt_google_logout" />
+
+        <Button
+            android:id="@+id/bt_act_login_fb"
+            style="@style/FacebookSigninInButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Facebook" />
+
+        <Button
+            android:id="@+id/bt_act_logout_fb"
+            style="@style/FacebookSigninInButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Facebook Logout" />
+
+        <!--never change id of this button-->
+        <Button
+            android:id="@+id/twitter_login_button"
+            style="@style/TwitterSigninInButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Login with Twitter" />
+
+        <!--never change id of this button-->
+        <Button
+            android:id="@+id/linkedin_login_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/linkedin_color"
+            android:text="Login with LinkedIn"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white" />
+
+        <!--never change id of this button-->
+        <Button
+            android:id="@+id/linkedin_logout_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/linkedin_color"
+            android:text="Logout from LinkedIn"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white" />
+
+        <!--never change id of this button-->
+        <Button
+            android:id="@+id/instagram_login_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#125688"
+            android:text="Login with instagram"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</ScrollView>

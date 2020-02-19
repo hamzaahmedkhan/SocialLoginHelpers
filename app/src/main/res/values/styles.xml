@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="GoogleAuthSignInButton">
+        <item name="android:background">@drawable/common_google_signin_btn_text_light</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="GoogleSignInButton">
+        <item name="android:background">@drawable/drawable_google</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="FacebookSigninInButton">
+        <item name="android:background">@drawable/com_facebook_button_background</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:text">FACEBOOK SIGNIN</item>
+        <item name="android:drawableStart">@drawable/com_facebook_button_icon</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+    </style>
+
+
+    <style name="TwitterSigninInButton">
+        <item name="android:background">@drawable/tw__login_btn</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:text">TWITTER SIGNIN</item>
+        <item name="android:drawableStart">@drawable/tw__ic_logo_default</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+    </style>
+</resources>
